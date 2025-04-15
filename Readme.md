@@ -377,13 +377,13 @@ Navigate to EC2 by clicking on the Services menu in the top, then click on EC2 i
 
 Navigate to Instances on the left panel.
 
-![Description](.access_s3_from_ec2/instance.png)
+![Description](./access_s3_from_ec2/instance.png)
 
 EC2 Instance may be Pending state, wait for in to get into Running state. And, complete the Status check, it will be updated to 2/2 checks passed from Initializing
 
 To use the Session manager feature for SSH, select the Instance and click on the Connect button.
 
-![Description](.access_s3_from_ec2/ssm.png)
+![Description](./access_s3_from_ec2/ssm.png)
 
 Run the first command to list all the S3 Buckets. And, copy the bucket name.
 
@@ -393,4 +393,4 @@ Note: upload this S3 object file in your S3 bucket and follow the next command t
 
 aws s3 ls s3://<Bucket-Name>
 
-![Description](.access_s3_from_ec2/terminal.png)
+![Description](./access_s3_from_ec2/terminal.png)
