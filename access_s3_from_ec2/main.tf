@@ -1,3 +1,9 @@
+/*
+Description: Terraform configuration to create a VPC, EC2 instance, and S3 bucket. The EC2 instance is provisioned in the VPC and pulls an HTML file from the S3 bucket to serve as a web server.
+Owner: Saradha Boothalingam
+Date: 07/04/2025
+*/
+
 provider "aws" {
   region = var.region
 

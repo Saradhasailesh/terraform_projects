@@ -11,6 +11,10 @@ output "public_ip" {
   
 }
 
+output "public_url" {
+  value = "https://${modeule.ec2.public_ip}:80/index.html"
+}
+
 output "instance_state" {
   value = module.ec2.instance_state
 }
